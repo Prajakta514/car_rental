@@ -1,0 +1,95 @@
+/* src/components/Home.css */
+
+.home {
+  /* background-image: url('https://watermark.lovepik.com/photo/40023/3895.jpg_wh1200.jpg');  */
+   background-image: url('https://img3.goodfon.com/wallpaper/nbig/b/46/2015-volkswagen-lamando-3922.jpg'); 
+ 
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+/* *body{
+  background-image: url('https://th.bing.com/th/id/OIP.ymX6I0Vw5ZHmi6nMV9YoggHaD1?w=325&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); 
+  background-size: cover;
+  background-position: center;
+} */
+
+.home-content {
+  /* background: rgba(0, 0, 0, 0.6); */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.home h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.home-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.home-images img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home-link {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #e64a19;
+}
+
+.home-info {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 420px;
+}
+
+.home-info h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.home-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-info li {
+  font-size: 1.2em;
+  margin: 10px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.home-info li:before {
+  content: "✔";
+  color: #ff5722;
+  position: absolute;
+  left: 0;
+}
